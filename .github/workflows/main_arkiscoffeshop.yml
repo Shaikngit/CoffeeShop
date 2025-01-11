@@ -62,5 +62,5 @@ jobs:
         with:
           app-name: 'arkiscoffeshop'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FC8884C514814DF984D873BDC366843E }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: .
